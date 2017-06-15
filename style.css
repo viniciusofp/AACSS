@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,800');
 
-.row,p,h1,h2,h3, h4, label{
-	margin: 0;
-	font-weight: normal;
+*{
+	font-family: 'Nunito Sans', sans-serif;
+	color: #666666;
+	font-weight: 400;
+	text-shadow: none;
 }
-
-/*h1,h2,h3,h4 {;
-	font-weight: 600;
-}*/
-
 body{
 	background: #fff;
 }
 
+.row,p,h1,h2,h3, h4, label{
+	margin: 0;
+	font-weight: normal;
+}
 
 img{
 	margin: auto;
@@ -34,31 +35,18 @@ h1, h2, h3 .tac{
 	clear: both;
 }
 
-*{
-	font-family: 'Nunito Sans', sans-serif;
-	color: #666666;
-	font-weight: 400;
-	text-shadow: none;
-}
-
 p {
 	font-weight: 400!important;
 	font-size: 18px;
 }
 
 
-.bdcn{
-	font-family: 'Nunito Sans', sans-serif;
-}
-
 .roman{
-	font-family: 'Nunito Sans', sans-serif;
 	font-weight: 400!important;
 	font-size: 18px;
 }
 
 .bd{
-	font-family: 'Nunito Sans', sans-serif;
 	font-weight: 700;
 }
 
@@ -289,7 +277,6 @@ body{
 	font-weight: 600;
 	font-size: 16px;
 	font-weight: 600;
-	font-family: 'Nunito Sans', sans-serif;
 }
 
 .greybb{
@@ -431,7 +418,6 @@ ul.bluetick li{
 
 .contentrow .form label{
 	color: black;
-	font-family: 'Nunito Sans', sans-serif;
 }
 
 label{
